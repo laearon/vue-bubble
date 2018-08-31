@@ -9,10 +9,10 @@ Vue.prototype.$emit can only receive event in the instance component. It doesn't
 Usage is pretty easy.
 
 ```javascript
-import VueBubble from 'vue-bubble';
+import VueBubbles from 'vue-bubbles';
 import Vue from 'Vue';
 
-Vue.use(VueBubble);
+Vue.use(VueBubbles);
 
 // In Your Component
 
