@@ -34,13 +34,13 @@ function install(Vue) {
     };
 
     function broadcast(vm, event, evObj) {
-        vm.$emit(event, evObj);
         if (
             evObj.canSpread &&
             Object.getPrototypeOf(vm.$children) === Array.prototype &&
             vm.$children.length
         ) {
             vm.$children.forEach(vm => {
+                vm.$emit(event, evObj);
                 broadcast(vm, event, evObj);
             });
         }

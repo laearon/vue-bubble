@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App';
 
-import VueBubble from './plugins/vue-bubble';
+import VueBubble from '../src';
 
 Vue.use(VueBubble);
 

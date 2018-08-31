@@ -13,6 +13,9 @@ export default {
         sub2,
     },
     beforeCreate() {
+        this.$on('kkk', e => {
+            console.log('sub1, self', e);
+        })
     },
     created() {
         ;
@@ -20,6 +23,7 @@ export default {
     methods: {
         knock() {
             this.$broadcast('kkk', {ok: 1});
+            // this.$bubble('kkk', {ok: 1});
         }
     }
 }
