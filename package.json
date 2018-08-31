@@ -1,5 +1,5 @@
 {
-  "name": "vue-bubble",
+  "name": "vue-bubbles",
   "version": "0.0.1",
   "description": "share events between Vue component",
   "main": "bundle/vue-bubble.js",

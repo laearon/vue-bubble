@@ -12,7 +12,7 @@ module.exports = {
         path: resolve('bundle'),
         filename: 'vue-bubble.js',
         publicPath: '.',
-        library: 'VueBubble',
+        library: 'VueBubbles',
         libraryTarget: 'umd'
     },
     mode: 'production',
